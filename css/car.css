@@ -1,0 +1,275 @@
+body {
+  background: #f7f7f7;
+}
+
+header {
+  background-image: url("https://dsfs.oppo.com/archives/202011/202011030511385fa120e655b61.png");
+  width: 100%;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-position: cover cover;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.Car {
+  box-sizing: border-box;
+  width: 1200px;
+  background-color: #fff;
+  margin: auto;
+  padding: 30px 40px;
+  margin-top: 20px;
+  min-height: 100px;
+}
+
+.Car p {
+  color: #333;
+  font-size: 18px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ededed;
+}
+
+.Car p .shop-num {
+  color: #F34141;
+  font-size: 18px;
+}
+
+.Car .shp-row {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  border-bottom: 1px solid #ededed;
+}
+
+.Car .shp-row li {
+  height: 80px;
+  padding: 20px 40px;
+}
+
+.Car .shp-row .select {
+  text-align: center;
+}
+
+.Car .shp-row .select input {
+  width: 30px;
+  height: 30px;
+  outline: none;
+  margin-top: 25px;
+}
+
+.Car .shp-row .image img {
+  width: auto;
+  height: 80px;
+}
+
+.Car .shp-row .title {
+  line-height: 80px;
+  text-align: center;
+  font-size: 14px;
+  width: 200px;
+}
+
+.Car .shp-row .title a {
+  color: #333;
+  transition: color 0.35s ease;
+}
+
+.Car .shp-row .title:hover a {
+  color: pink;
+}
+
+.Car .shp-row .price {
+  line-height: 80px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  width: 200px;
+}
+
+.Car .shp-row .increase {
+  margin-top: 15px;
+}
+
+.Car .shp-row .increase .selectbox {
+  width: 210px;
+  height: 50px;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.Car .shp-row .increase .selectbox button {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border: 0;
+  outline: none;
+  background: #fff;
+  font-size: 26px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.Car .shp-row .increase .selectbox input {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  outline: none;
+  position: absolute;
+  top: 0;
+}
+
+.Car .shp-row .increase .selectbox .add {
+  margin-left: 100px;
+}
+
+.Car .shp-row .del {
+  line-height: 80px;
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+.Car .pay {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.Car .pay .continue {
+  margin-left: 20px;
+  flex: 1;
+  vertical-align: top;
+  text-align: left;
+  color: #333;
+  display: inline-block;
+  line-height: 30px;
+  transition: color 0.35s ease;
+}
+
+.Car .pay .continue:hover {
+  color: pink;
+}
+
+.Car .pay .tol {
+  vertical-align: top;
+  text-align: right;
+}
+
+.Car .pay .tol p span {
+  font-size: 14px;
+  color: #555555;
+}
+
+.Car .pay .tol p .tol-price {
+  font-size: 28px;
+}
+
+.Car .pay .tol .settle {
+  width: 196px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  background-color: #F34141;
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  background-image: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: background-color 0.35s ease;
+  transition: background-color 0.35s ease;
+  border-radius: 4px;
+}
+
+.foot {
+  margin-top: 100px;
+  width: 100%;
+  height: 600px;
+  background: #fff;
+}
+
+.foot .footNav {
+  padding-top: 80px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.foot .footNav ul {
+  margin-right: 70px;
+  float: left;
+}
+
+.foot .footNav ul li {
+  font-size: 13px;
+  line-height: 30px;
+  cursor: pointer;
+  color: #555;
+  font-weight: 600;
+}
+
+.foot .footNav ul li:hover {
+  color: gray;
+}
+
+.foot .footNav .tel {
+  float: right;
+  padding-top: 20px;
+}
+
+.foot .footNav .tel span {
+  display: inline-block;
+  width: 100px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  background: #666;
+  border: 1px solid #666;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.foot .footNav .tel span:hover {
+  background: #333;
+}
+
+.foot .footNav .tel h4 {
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 50px;
+}
+
+.foot .footNav .tel p {
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+}
+
+.foot .copy {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 300px;
+  border-top: 1px  solid aqua;
+}
+
+.foot .copy p {
+  margin-top: 20px;
+  color: #666;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+}

@@ -1,0 +1,253 @@
+
+.bodyNav{
+    width: 100%;
+    height: 88px;
+    z-index: 333;
+    position: relative;
+    border-bottom: 1px solid #F4F4F4;
+    background: #fff;
+    ul{
+        width: 1200px;
+        margin: 0 auto;
+        height: 88px;
+        li{
+            float: left;
+            margin-right: 50px;
+            line-height: 88px;
+            font-size: 20px; 
+            color: #000;   
+            ;&:hover a{
+            color: gray;
+        }      
+        }
+        
+
+    }
+}
+
+.self{
+    cursor: pointer;
+}
+.selfBox{
+    border: 1px solid aqua;
+    width: 230px;
+    display: none;
+    position: absolute;
+    top: 88px;
+    right: 0;
+    margin-right: 290px;
+    background-color: #fff;
+    z-index: 555;
+    overflow: hidden;
+    nav{
+        display: block;
+        border-radius: 4px;
+        padding: 10px 0;
+        box-shadow: 0 1px 2px 0 rgba(102,102,102,0.5);
+        li{
+            display: block;
+            padding: 18px 0;
+            margin: 0 28px;
+            border-bottom: 1px rgba(0,0,0,0.082) solid;
+            a{
+                display: block;
+                white-space: nowrap;
+                overflow: hidden;
+                font-size: 15px;
+                color: #333;
+                text-align: center;
+                -webkit-transition: color 0.35s ease;
+                transition: color 0.35s ease;
+            }
+        }
+    }
+}
+
+.oppoBox{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    z-index: 22;
+    display: none;
+    position: absolute;
+    top: 10px;
+    .ulBox{
+        padding-top: 100px;
+        width: 1200px;
+        height: 150px;
+        margin: 0 auto;
+        .liBox{
+            width: 200px;
+            float: left;
+            .img{
+                width: 100px;
+                height: 100px;
+                padding-left: 50px;
+                
+            }
+            .p{
+                font-size: 16px;
+                text-align: center;
+                line-height: 100px;
+                
+            }
+            ;&:hover p{
+                color: gray;
+        }
+
+        }
+
+    }
+}
+
+.detailBox{
+    width: 100%;
+    background: #fff;
+.list{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    
+    .swiperbox{
+        width: 600px;
+        height: 800px;
+        padding-top: 50px;
+        .gallery-top {
+            height: 560px;
+            width: 560px;
+        }
+
+        .gallery-thumbs {
+            height: 100px;
+            box-sizing: border-box;
+            padding: 10px 20px;
+
+            .swiper-slide {
+                height: 100%;
+                opacity: 0.4;
+            }
+            .swiper-slide-thumb-active {
+                opacity: 1;
+                border-bottom: 2px solid pink;
+                
+            }
+        }
+
+    }
+
+    .detail{
+        width: 600px;
+        height: 800px;
+        position: absolute;
+        left: 600px;
+        top: 50px;
+        margin-left: 20px;
+
+        h4{
+            font-size: 26px;
+            line-height: 50px;
+            
+        }
+        .product-text{
+            line-height: 22px;
+            color: #0a0a0a;
+            font-size: 14px;
+            
+        }
+        .price{
+            font-size: 26px;
+            line-height: 50px;
+            
+        }
+        .product-support{
+            line-height: 22px;
+            color: #0a0a0a;
+            font-size: 14px;
+            
+            a{
+                line-height: 22px;
+                color: #0a0a0a;
+                font-size: 14px;
+            }
+        }
+        .select{
+            margin-top: 30px;
+            
+
+            p{
+                line-height: 22px;
+                color: #0a0a0a;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+            .selectbox{
+                width: 210px;
+                height: 50px;
+                border: 1px solid blueviolet;
+                position: relative;
+                
+                button{
+                    width: 50px;
+                    height: 50px;
+                    text-align: center;
+                    border: 0;
+                    outline: none;
+                    background: #fff;
+                    font-size: 26px;
+                    line-height: 50px;
+                    cursor: pointer;
+                }
+                input{
+                    width: 100px;
+                    height: 50px;
+                    text-align: center;
+                    outline: none;
+                    position: absolute;
+                    top: 0;   
+                }
+                .add{
+                    margin-left: 100px;
+                }
+            }
+        }
+
+        .buying-btn{
+            width: 500px;
+            margin-top: 30px;
+            border-top: 1px solid #F4F4F4;
+            padding-top: 30px;
+            button{
+                width: 196px;
+                height: 60px;
+                line-height: 60px;
+                margin: 20px;
+                border-radius: 4px;
+                font-size: 16px;
+                cursor: pointer;
+                
+                outline: none;
+            }
+            #addCar{
+                color: #666;
+                background-color: #F4F4F4;
+                ;&:hover{
+                    background: #E3E3E3;
+                }
+            }
+            #goCar{
+                color: #fff;
+                background-color: #F34141;
+                ;&:hover{
+                    background: rgb(252, 89, 89);
+                }
+            }
+        }
+    }
+}
+}
+.packing-details{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}

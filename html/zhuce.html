@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background: url(https://id.heytap.com/img/heytap_bg.1612deb5.png) no-repeat;
+        
+    }
+    .box{
+        width: 400px;
+        height: 500px;
+        background: #fff;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .box h4{
+        font-weight: 900;
+        margin: 0 auto 40px;
+        text-align: center;
+        width: 320px;
+        font-size: 26px;
+        line-height: 37px;
+        padding-top: 50px;
+    }
+    .box p{
+        width: 320px;
+        margin: 0  40px;
+        margin-bottom: 10px;
+
+    }
+    .box p input{
+        width: 320px;
+        height: 45px;
+        background: #f7f7f7;
+        border-radius: 9px;
+        box-sizing: border-box;
+        color: #000;
+        display: block;
+        font-size: 12px;
+        outline: none;
+        border: 0;
+        text-indent: 16px;
+    }
+    .box p .checkbox{
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+    }
+    .box p .span1{
+        cursor: pointer;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: 9px;
+        color:gray;
+    }
+    .box p .span2{
+        cursor: pointer;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: 9px;
+    }
+    .box p .span2 a{
+        text-decoration: none;
+         color: #2ad181;
+    }
+    .btn{
+        margin: 0  40px;
+        margin-bottom: 10px;
+        background-color: #2ad181;
+        border-radius: 9px;
+        box-sizing: border-box;
+        color: #000;
+        display: block;
+        font-size: 12px;
+        outline: none;
+        border: 0;
+        width: 320px;
+        height: 45px;
+        color: #f7f7f7;
+        cursor: pointer;
+    }
+
+    .foot{
+        margin-bottom: 20px;
+        margin-top: 710px;
+        position: relative;
+        text-align: center;
+    }
+    .foot p{
+        color: #9b9b9b;
+        font-size: 12px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <form action="../api/zhuce.php" method="POST" >
+        <div class="box">
+            <h4>注册账号</h4>
+            <p><input type="text" placeholder="请输入手机号码" name="user" class="name"></p> 
+            <p><input type="code" placeholder="请输入密码" name="password" class="password"></p>
+            <p><span class="span1">密码由8-14位数字和字母组成，必须包括两种字符</span></p>
+            <p><input type="checkbox" class="checkbox"> <span class="span2"><a href="javascript:;">隐私政策</a> </span>  <span class="span2"><a href="javascript:;">《账户使用协议》</a></span></p>
+            <button class="btn">注册</button> 
+        </div>
+        <div class="foot">
+            <p>
+                <span>© 2005 - 2021 广东欢太 版权所有 粤ICP备 14056724 号-2&nbsp;&nbsp;联系方式：4001-999-666</span> 
+            </p>
+        </div>
+        
+    </form>
+
+    <script>
+    let name =  document.querySelector('.name');
+    let password = document.querySelector('.password');
+    let checkbox = document.querySelector('.checkbox');
+    let btn = document.querySelector('.btn');
+
+    var nameReg  = /^1[356789]\d{9}$/;
+    var passwordReg =  /^[0-9a-zA-Z,\.]{8,14}$/;
+    
+    
+
+    btn.onclick = function(){
+        switch (true) {
+            case nameReg.test(name.value)
+            && passwordReg.test(password.value)
+            && checkbox.checked == true:
+            
+            
+
+            alert('注册成功')
+                break;
+        
+            default:
+            alert('注册失败，请完善注册信息')
+            break;
+        }
+    }
+
+
+
+
+
+    </script>
+</body>
+</html>

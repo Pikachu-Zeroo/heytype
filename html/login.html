@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background: url(https://id.heytap.com/img/heytap_bg.1612deb5.png) no-repeat;
+        
+    }
+    .box{
+        width: 400px;
+        height: 500px;
+        background: #fff;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .box h4{
+        font-weight: 900;
+        margin: 0 auto 40px;
+        text-align: center;
+        width: 320px;
+        font-size: 26px;
+        line-height: 37px;
+        padding-top: 50px;
+    }
+    .box p{
+        width: 320px;
+        margin: 0  40px;
+        margin-bottom: 10px;
+
+    }
+    .box p input{
+        width: 320px;
+        height: 45px;
+        background: #f7f7f7;
+        border-radius: 9px;
+        box-sizing: border-box;
+        color: #000;
+        display: block;
+        font-size: 12px;
+        outline: none;
+        border: 0;
+        text-indent: 16px;
+    }
+    .box p .span1{
+        cursor: pointer;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: 9px;
+        color: black;
+    }
+    .box p .span2{
+        cursor: pointer;
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: 9px;
+        float: right;
+    }
+    .box p .span2 a{
+        text-decoration: none;
+         color: #2ad181;
+    }
+    .btn{
+        width: 320px;
+        margin: 0  40px;
+        margin-bottom: 10px;
+        background-color: #2ad181;
+        border-radius: 9px;
+        box-sizing: border-box;
+        color: #000;
+        display: block;
+        font-size: 12px;
+        outline: none;
+        border: 0;
+        width: 320px;
+        height: 45px;
+        color: #f7f7f7;
+        cursor: pointer;
+    }
+
+    .foot{
+        margin-bottom: 20px;
+        margin-top: 710px;
+        position: relative;
+        text-align: center;
+    }
+    .foot p{
+        color: #9b9b9b;
+        font-size: 12px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <form action="../api/login.php" method="POST" class="form">
+        <div class="box">
+            <h4>账号登录</h4>
+            <p><input type="text" placeholder="请输入手机号码"  id="user"></p> 
+            <p><input type="code" placeholder="请输入密码"id="password"></p>
+            <p><span class="span1">忘记密码</span></p>
+            <button class="btn">登录</button>
+            <p><span class="span1">隐私政策</span>  <span class="span2"><a href="../html/zhuce.html">注册账号</a></span></p>   
+        </div>
+        <div class="foot">
+            <p>
+                <span>© 2005 - 2021 广东欢太 版权所有 粤ICP备 14056724 号-2&nbsp;&nbsp;联系方式：4001-999-666</span> 
+            </p>
+        </div>
+    </form>
+
+    <script src="../js/ajax.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/login.js"></script>
+
+
+</body>
+
+</html>

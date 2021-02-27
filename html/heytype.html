@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../swiper-master/package/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../swiper-master/package/swiper-bundle.min.js"></script>
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../js/ajax.js"></script>
+    <style>
+    .swiper-container{
+        width: 100%;
+    }
+    .swiper-container img{
+        width: 100%;
+    }
+    .swiper-container .information{
+        position: absolute;
+        z-index: 333;
+        top: 200px;
+        right: 150px;
+        text-align: center;
+    }
+    .swiper-container .information h2{
+        color: #333;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .swiper-container .information h3{
+        color: #666;
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    .swiper-container .information a{
+        display: inline-block;
+        width: 80px;
+        height: 30px;
+        color: #fff;
+        background: #F34141;
+        line-height: 30px;
+        border-radius: 15px;
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="headTop"></div>
+    <div class="headNav">
+        <nav>
+            <li><a href="">欢太品牌</a></li>
+            <li><a href="">欢太云服务</a></li>
+            <li><a href="">软件商场</a></li>
+            <li><a href="">健康</a></li>
+            <li><a href="">欢太商城</a></li>
+        </nav>
+    </div>
+
+    <div class="bodyNav">
+        <ul>
+            <li><a href="https://www.heytap.com/"> 欢太商城</a></li>
+            <li class="oppo fun"><a href="javascript:;"> OPPO专区</a></li>
+            <li class="oneplus fun"><a href="javascript:;"> 一加专区</a></li>
+            <li class="realme fun"><a href="javascript:;"> realme专区</a></li>
+            <li class="hard fun "><a href="javascript:;"> 智能硬件</a></li>
+            <li class="heart fun"><a href="javascript:;"> 智美心品</a></li>
+            <li class="pingpai"><a href="javascript:;"> 品牌</a></li>
+            <li class="self">个人中心</li>
+        </ul>
+    </div>
+
+    <div class="oppoBox">
+        <ul class="ulBox">
+             <!-- <li class="liBox">
+                <div class="img"><img src="https://dsfs.oppo.com/archives/202012/202012291112525fea9eb487a9a.png?x-oss-process=image/format,webp" alt=""></div> 
+                <p class="p">Reno 星河入梦</p>
+            </li> -->
+        </ul>
+    </div>
+
+
+
+    <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://dsfs.oppo.com/archives/202102/2021022207022160338ff19d5b7.jpg?_w_=5120&_h_=1781&x-oss-process=image/format,webp" alt="">
+                    <div class="information">
+                        <h2>真我GT</h2>
+                        <h3>3月4日14:00真我年度旗舰GT发布，发布会后欢太独家尝鲜</h3>
+                        <a href="https://www.heytap.com/products/3419.html">立即查看</a>
+                    </div> 
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://dsfs.oppo.com/archives/202012/202012290212075feacb4b33b67.jpg?x-oss-process=image/format,webp" alt="">
+                    <div class="information" >
+                            <h2 style="color:#fff">OPPO Reno5 Pro+</h2>
+                            <h3 style="color:#fff">索尼联合开发传感器IMX766，骁龙865</h3>
+                            <a href="http://project.io/html/detail.html?id=1" style="background-color: #fff;color: #000">立即抢购</a>
+                    </div> 
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://dsfs.oppo.com/archives/202102/202102080502376021044575d62.jpg?_w_=5120&_h_=1780&x-oss-process=image/format,webp" alt="">
+                    <div class="information">
+                            <h2>OnePlus 8 Pro</h2>
+                            <h3>120Hz 屏幕刷新率｜4800 万超清四摄｜骁龙865 旗舰性能</h3>
+                            <a href="http://project.io/html/detail.html?id=2">立即抢购</a>
+                    </div> 
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://dsfs.oppo.com/archives/202012/202012110512195fd33dcf6d0ea.jpg?x-oss-process=image/format,webp" alt="">
+                    <div class="information" >
+                            <h2 style="color:#fff">OPPO Enco X</h2>
+                            <h3 style="color:#fff">故宫定制福启版，双重主动降噪</h3>
+                            <a href="http://project.io/html/detail.html?id=10" style="background-color: #fff;color: #000">立即抢购</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://dsfs.oppo.com/archives/202101/20210125100101600e27899566e.jpg?x-oss-process=image/format,webp" alt="">
+                    <div class="information">
+                            <h2>OPPO A55</h2>
+                            <h3>5000mAh超大电池 | 天玑700双模5G | 亿级像素超清画质</h3>
+                            <a href="http://project.io/html/detail.html?id=25">立即抢购</a>
+                    </div> 
+                </div>
+           </div>
+           <div class="swiper-pagination"></div>
+    </div>
+
+
+    <div class="selfBox">
+        <nav>
+            <li><a href="../html/car.html">购物车</a></li>
+            <li><a href="">个人中心</a></li>
+            <li><a href="../html/login.html">登录</a></li>
+        </nav>
+
+    </div>
+
+    <div class="OPPO">
+        <h4>OPPO专区</h4>
+        <nav class="OPPObox">
+        </nav>
+    </div>
+
+    <div class="OnePlus">
+        <h4>一加专区</h4>
+        <nav class="OnePlusbox">
+        </nav>
+    </div>
+
+    <div class="Realme">
+        <h4>realme专区</h4>
+        <nav class="Realmebox">
+        </nav>
+    </div>
+
+    <div class="smarthard">
+        <h4>智能硬件</h4>
+        <nav class="hardnav">
+            <li class="recommend"><a href="javascript:;" class="active">推荐</a></li>
+            <li class="TV"><a href="javascript:;" >智能电视</a></li>
+            <li class="wear"><a href="javascript:;">智能穿戴</a></li>
+            <li class="earphone"><a href="javascript:;">耳机影音</a></li>
+            <li class="furniture"><a href="javascript:;">智能家居</a></li>
+            <li class="accessories"><a href="javascript:;">原厂配件</a></li>
+            <li class="protect"><a href="javascript:;">保护壳</a></li>
+            <li class="else"><a href="javascript:;">其他</a></li>
+        </nav>
+        <nav class="hardbox">
+                <li class="small"><a href="">
+                        <img src="https://dsfs.oppo.com/archives/202012/202012291112525fea9eb487a9a.png?x-oss-process=image/format,webp" alt="">
+                        <div class="font">
+                                <p>Reno5 星河入梦 </p>
+                                <p>￥3999.00</p>
+                        </div>
+                </a></li>
+
+                <li class="small"><a href="">
+                        <img src="https://dsfs.oppo.com/archives/202011/202011190911215fb66f71dd1da.png?x-oss-process=image/format,webp" alt="">
+                        <div class="font">
+                                <p>OnePlus 8T 青域</p>
+                                <p>￥3399.00</p>
+                        </div>
+                </a></li>
+
+                <li class="small"><a href="">
+                        <img src="https://dsfs.oppo.com/archives/202010/202010121010085f846c300452f.png?x-oss-process=image/format,webp" alt="">
+                        <div class="font">
+                                <p>realme 真我Q2 </p>
+                                <p>￥1299.00</p>
+                        </div>
+                </a></li>
+        </nav>
+
+    </div>
+
+
+
+    <div class="foot">
+
+        <div class="footNav">
+            <ul>
+                <li>关于欢太</li>
+                <li>了解欢太</li>
+                <li>欢太产品与服务</li>
+                <li>联系我们</li>
+            </ul>
+
+            <ul>
+                <li>OPPO产品</li>
+                <li>OPPO Reno4 SE</li>
+                <li>OPPO Ace2</li>
+                <li>OPPO K7</li>
+                <li>OPPO Reno4 Pro</li>
+                <li>OPPO A8</li>
+            </ul>
+
+            <ul>
+                <li>一加产品</li>
+                <li>OnePlus 8T</li>
+                <li>OnePlus 8</li>
+                <li>OnePlus 8Pro</li>
+                <li>OnePlus Buds</li>
+            </ul>
+
+            <ul>
+                <li>realme产品</li>
+                <li>真我GT</li>
+                <li>真我X7 Pro</li>
+                <li>真我Q2 Pro</li>
+                <li>真我V15</li>
+            </ul>
+
+            <ul>
+                <li>服务政策</li>
+                <li>OPPO售后政策</li>
+                <li>一加售后政策 Pro</li>
+                <li>realme售后政策</li>
+                <li>配送发货说明</li>
+                <li>花呗分期说明</li>
+                <li>电子发票说明</li>
+            </ul>
+
+
+            <div class="tel">
+                   <span>在线客服</span>
+                   <h4>400-1999-666</h4>
+                   <p>24小时全国热线</p>
+            </div>
+
+        </div>
+
+        <div class="copy">
+            <p>©️ 2021 欢太 版权所有 粤ICP备14012291号 | 隐私政策 | 用户使用协议| 资质证照</p>
+            <p>粤公网安备 44190002004935号</p>
+
+        </div>
+
+    </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+    loop:true,
+    autoplay:true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable :true,
+    },
+    
+    });
+
+    for(i=0;i<mySwiper.pagination.bullets.length;i++){
+        mySwiper.pagination.bullets[i].onclick=function(){
+            this.click();  
+             
+  };
+  
+    
+} 
+    let self = $('.self');
+    let selfBox= $('.selfBox');
+    self.click(function () {
+                $('.selfBox').toggle();
+            }); 
+
+</script>
+
+
+
+
+</body>
+<script src="../js/data.js"></script>
+</html>

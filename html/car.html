@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../common/common.css">
+    <link rel="stylesheet" href="../css/car.css">
+    <script src="../js/cookie.js"></script>
+    <script src="../js/ajax.js"></script>
+    <style type="text/css">
+        input[type="checkbox"]{
+            width:30px;
+            height:30px;
+            border:1px solid #999;
+            background-color:#fff;
+            line-height:30px;
+            border-radius:15px;
+            color:#fff;
+            text-align:center;
+            appearance:none;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            -ms-appearance:none;
+            -o-appearance:none;
+        }
+        input[type="checkbox"]:checked{
+            color:#fff;
+            background-color: #F34141;
+            border-color: #F34141;
+            
+        }
+        input[type="checkbox"]:after{
+            content:"✔";
+        }
+
+        </style>
+</head>
+<body>
+    <header></header>
+
+    <section class="Car">
+        
+            <p>购物车 <span class="shop-num">（1）</span></p>
+            <div class="shopList">
+                <!--<ul class="shp-row">
+                         <li class="select">
+                            <input type="checkbox" ${item.is_select ? "checked" :''} class="checked" idx="${item.goods_id}">    
+                        </li>
+                        <li class="image">
+                            <a href="https://www.heytap.com/products/3073.html" title="Reno5 Pro 星愿红 8G+128G">
+                                <img src="https://dsfs.oppo.com/archives/202012/202012230412235fe2f9cbe9b1f.png" alt="">
+                            </a></li>
+                        <li class="title">
+                            <a href="https://www.heytap.com/products/3073.html">Reno5 Pro 星愿红 8G+128G</a>
+                        </li>
+                        <li class="price">
+                            <span>￥3399.00</span>
+                        </li>
+                        <li class="increase">
+                                <div class="selectbox">
+                                    <button class="reduce">-</button>
+                                    <input type="num" value="1" class="num">
+                                    <button class="add">+</button>
+                                </div>
+                        </li>
+                        <li class="delete">
+                            <a href="#"  title="购物车删除" class="del"><b> &times;</b></a>
+                        </li>
+                </ul> -->
+            </div>
+            <div class="pay">
+                <a href="../html/heytype.html" class="continue">&larr;继续选购 </a>
+                <div class="tol">
+                    <p><span>应付</span> <span class="tol-price">￥3399</span></p>
+                    <span class="settle">去结算</span>
+                </div>
+
+            </div>
+            
+
+
+        
+    </section>
+
+    <div class="foot">
+
+            <div class="footNav">
+                <ul>
+                    <li>关于欢太</li>
+                    <li>了解欢太</li>
+                    <li>欢太产品与服务</li>
+                    <li>联系我们</li>
+                </ul>
+    
+                <ul>
+                    <li>OPPO产品</li>
+                    <li>OPPO Reno4 SE</li>
+                    <li>OPPO Ace2</li>
+                    <li>OPPO K7</li>
+                    <li>OPPO Reno4 Pro</li>
+                    <li>OPPO A8</li>
+                </ul>
+    
+                <ul>
+                    <li>一加产品</li>
+                    <li>OnePlus 8T</li>
+                    <li>OnePlus 8</li>
+                    <li>OnePlus 8Pro</li>
+                    <li>OnePlus Buds</li>
+                </ul>
+    
+                <ul>
+                    <li>realme产品</li>
+                    <li>真我GT</li>
+                    <li>真我X7 Pro</li>
+                    <li>真我Q2 Pro</li>
+                    <li>真我V15</li>
+                </ul>
+    
+                <ul>
+                    <li>服务政策</li>
+                    <li>OPPO售后政策</li>
+                    <li>一加售后政策 Pro</li>
+                    <li>realme售后政策</li>
+                    <li>配送发货说明</li>
+                    <li>花呗分期说明</li>
+                    <li>电子发票说明</li>
+                </ul>
+    
+    
+                <div class="tel">
+                       <span>在线客服</span>
+                       <h4>400-1999-666</h4>
+                       <p>24小时全国热线</p>
+                </div>
+    
+            </div>
+    
+            <div class="copy">
+                <p>©️ 2021 欢太 版权所有 粤ICP备14012291号 | 隐私政策 | 用户使用协议| 资质证照</p>
+                <p>粤公网安备 44190002004935号</p>
+    
+            </div>
+    
+    </div>
+
+    <script src="../js/car.js"></script>
+
+
+</body>
+</html>

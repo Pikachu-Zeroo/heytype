@@ -1,0 +1,535 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.headTop {
+  background-image: url("https://dsfs.oppo.com/archives/202011/202011030511385fa120e655b61.png");
+  width: 100%;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-position: cover cover;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.headNav {
+  width: 100%;
+  background: #000;
+}
+
+.headNav nav {
+  width: 1200px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.headNav nav li {
+  line-height: 50px;
+  float: left;
+}
+
+.headNav nav li a {
+  font-size: 14px;
+  color: rgba(241, 241, 241, 0.8);
+  padding-right: 70px;
+}
+
+.bodyNav {
+  width: 100%;
+  height: 88px;
+  margin-top: 1px;
+  position: absolute;
+  top: 140px;
+  z-index: 333;
+}
+
+.bodyNav ul {
+  width: 1200px;
+  margin: 0 auto;
+  height: 88px;
+}
+
+.bodyNav ul li {
+  float: left;
+  margin-right: 50px;
+  line-height: 88px;
+  font-size: 20px;
+  color: #000;
+}
+
+.bodyNav ul li:hover a {
+  color: gray;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-container img {
+  width: 100%;
+}
+
+.swiper-container .information {
+  position: absolute;
+  z-index: 333;
+  top: 200px;
+  right: 150px;
+  text-align: center;
+}
+
+.swiper-container .information h2 {
+  color: #333;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.swiper-container .information h3 {
+  color: #666;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.swiper-container .information a {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  color: #fff;
+  background: #F34141;
+  line-height: 30px;
+  border-radius: 15px;
+}
+
+.swiper-slide, .swiper-pagination {
+  cursor: pointer;
+}
+
+.self {
+  cursor: pointer;
+}
+
+.selfBox {
+  border: 1px solid aqua;
+  width: 230px;
+  display: none;
+  position: absolute;
+  top: 229px;
+  right: 0;
+  margin-right: 290px;
+  background-color: #fff;
+  z-index: 555;
+  overflow: hidden;
+}
+
+.selfBox nav {
+  display: block;
+  border-radius: 4px;
+  padding: 10px 0;
+  box-shadow: 0 1px 2px 0 rgba(102, 102, 102, 0.5);
+}
+
+.selfBox nav li {
+  display: block;
+  padding: 18px 0;
+  margin: 0 28px;
+  border-bottom: 1px rgba(0, 0, 0, 0.082) solid;
+}
+
+.selfBox nav li a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 15px;
+  color: #333;
+  text-align: center;
+  -webkit-transition: color 0.35s ease;
+  transition: color 0.35s ease;
+}
+
+.oppoBox {
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 22;
+  top: 140px;
+  display: none;
+}
+
+.oppoBox .ulBox {
+  padding-top: 100px;
+  width: 1200px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.oppoBox .ulBox .liBox {
+  width: 200px;
+  float: left;
+}
+
+.oppoBox .ulBox .liBox .img {
+  width: 100px;
+  height: 100px;
+  padding-left: 50px;
+}
+
+.oppoBox .ulBox .liBox .p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.oppoBox .ulBox .liBox:hover p {
+  color: gray;
+}
+
+.OPPO {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.OPPO h4 {
+  line-height: 70px;
+  font-size: 26px;
+  color: #333;
+}
+
+.OPPO .OPPObox {
+  width: 1200px;
+  height: 930px;
+}
+
+.OPPO .OPPObox li {
+  float: left;
+  background: #fff;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.OPPO .OPPObox .big {
+  width: 570px;
+  height: 440px;
+  background-image: url(https://dsfs.oppo.com/archives/202012/202012240512585fe464fa2be24.png?x-oss-process=image/format,webp);
+  background-repeat: no-repeat;
+  background-position: cover cover;
+  background-size: cover;
+}
+
+.OPPO .OPPObox .big .font {
+  width: 310px;
+  padding-top: 160px;
+}
+
+.OPPO .OPPObox .big .font p {
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 26px;
+}
+
+.OPPO .OPPObox .small {
+  width: 270px;
+  height: 440px;
+}
+
+.OPPO .OPPObox .small img {
+  padding-top: 40px;
+  width: 250px;
+  height: 250px;
+}
+
+.OPPO .OPPObox .small .font {
+  width: 270px;
+  margin-top: 40px;
+}
+
+.OPPO .OPPObox .small .font p {
+  width: 270px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #555;
+}
+
+.OnePlus {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.OnePlus h4 {
+  line-height: 70px;
+  font-size: 26px;
+  color: #333;
+}
+
+.OnePlus .OnePlusbox {
+  width: 1200px;
+  height: 930px;
+}
+
+.OnePlus .OnePlusbox li {
+  float: left;
+  background: #fff;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.OnePlus .OnePlusbox .small {
+  width: 270px;
+  height: 440px;
+}
+
+.OnePlus .OnePlusbox .small img {
+  padding-top: 40px;
+  width: 250px;
+  height: 250px;
+}
+
+.OnePlus .OnePlusbox .small .font {
+  width: 270px;
+  margin-top: 40px;
+}
+
+.OnePlus .OnePlusbox .small .font p {
+  width: 270px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #555;
+}
+
+.Realme {
+  width: 1200px;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.Realme h4 {
+  line-height: 70px;
+  font-size: 26px;
+  color: #333;
+}
+
+.Realme .Realmebox {
+  width: 1200px;
+  height: 930px;
+}
+
+.Realme .Realmebox li {
+  float: left;
+  background: #fff;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.Realme .Realmebox .big {
+  width: 570px;
+  height: 440px;
+  background-image: url(https://dsfs.oppo.com/archives/202101/2021011804014960054919d1046.png?x-oss-process=image/format,webp);
+  background-repeat: no-repeat;
+  background-position: cover cover;
+  background-size: cover;
+}
+
+.Realme .Realmebox .big .font {
+  width: 310px;
+  padding-top: 160px;
+}
+
+.Realme .Realmebox .big .font p {
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 26px;
+}
+
+.Realme .Realmebox .small {
+  width: 270px;
+  height: 440px;
+}
+
+.Realme .Realmebox .small img {
+  padding-top: 40px;
+  width: 250px;
+  height: 250px;
+}
+
+.Realme .Realmebox .small .font {
+  width: 270px;
+  margin-top: 40px;
+}
+
+.Realme .Realmebox .small .font p {
+  width: 270px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #555;
+}
+
+.smarthard {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+.smarthard h4 {
+  line-height: 70px;
+  font-size: 26px;
+  color: #333;
+}
+
+.smarthard .hardnav {
+  position: absolute;
+  height: 70px;
+  top: 0;
+  right: 0;
+}
+
+.smarthard .hardnav li {
+  float: left;
+  line-height: 70px;
+  font-size: 16px;
+  margin-left: 30px;
+  width: 90px;
+  text-align: center;
+}
+
+.smarthard .hardnav li a {
+  color: #666;
+}
+
+.smarthard .hardnav li .active {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background: #fff;
+  color: #F34141;
+}
+
+.smarthard .hardbox {
+  width: 1200px;
+  height: 440px;
+}
+
+.smarthard .hardbox li {
+  float: left;
+  background: #fff;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.smarthard .hardbox .small {
+  width: 270px;
+  height: 440px;
+}
+
+.smarthard .hardbox .small img {
+  padding-top: 40px;
+  width: 250px;
+  height: 250px;
+}
+
+.smarthard .hardbox .small .font {
+  width: 270px;
+  margin-top: 40px;
+}
+
+.smarthard .hardbox .small .font p {
+  width: 270px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #555;
+}
+
+.foot {
+  margin-top: 100px;
+  width: 100%;
+  height: 600px;
+  background: #fff;
+}
+
+.foot .footNav {
+  padding-top: 80px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.foot .footNav ul {
+  margin-right: 70px;
+  float: left;
+}
+
+.foot .footNav ul li {
+  font-size: 13px;
+  line-height: 30px;
+  cursor: pointer;
+  color: #555;
+  font-weight: 600;
+}
+
+.foot .footNav ul li:hover {
+  color: gray;
+}
+
+.foot .footNav .tel {
+  float: right;
+  padding-top: 20px;
+}
+
+.foot .footNav .tel span {
+  display: inline-block;
+  width: 100px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  background: #666;
+  border: 1px solid #666;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.foot .footNav .tel span:hover {
+  background: #333;
+}
+
+.foot .footNav .tel h4 {
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 50px;
+}
+
+.foot .footNav .tel p {
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+}
+
+.foot .copy {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 300px;
+  border-top: 1px  solid aqua;
+}
+
+.foot .copy p {
+  margin-top: 20px;
+  color: #666;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+}
