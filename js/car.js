@@ -96,11 +96,11 @@ class Car{
                             <input type="checkbox" ${item.is_select ? "checked" :''} class="checked" idx="${item.goods_id}">    
                         </li>
                         <li class="image">
-                            <a href="http://project.io/html/detail.html?id=${item.goods_id}" title="${item.goods_name}">
+                            <a href="../html/detail.html?id=${item.goods_id}" title="${item.goods_name}">
                                 <img src="${item.goods_big_logo}" alt="">
                             </a></li>
                         <li class="title">
-                            <a href="http://project.io/html/detail.html?id=${item.goods_id}">${item.goods_name}</a>
+                            <a href="../html/detail.html?id=${item.goods_id}">${item.goods_name}</a>
                         </li>
                         <li class="price">
                             <span>￥${item.goods_price}</span>
